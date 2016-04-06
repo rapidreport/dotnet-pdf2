@@ -1,0 +1,15 @@
+# /
+/*.suo
+
+# /bin/
+/bin/*
+
+# /test/
+/test/bin
+/test/obj
+/test/*.user
+
+# /renderer.pdf2/
+/renderer.pdf2/bin
+/renderer.pdf2/obj
+/renderer.pdf2/*.user
