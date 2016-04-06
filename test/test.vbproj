@@ -66,6 +66,7 @@
     <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Core" />
     <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Xml.Linq" />
     <Reference Include="systembase.barcode">
       <HintPath>..\dll\systembase.barcode.dll</HintPath>
     </Reference>
