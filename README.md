@@ -1,7 +1,7 @@
 RapidReport/dotnet-pdf2
 ==================
-RapidReport/dotnet-pdf2 は .NET 用の帳票レンダリングエンジンで使用する
-PDF出力にiText5系を用いています。
+RapidReport/dotnet-pdf2 は 帳票ツールRapidReport .NET版 の出力エンジンエンジンから利用する
+PDF形式向けのレンダラです。iText5系を利用しています。
 
 RapidReport  
 [http://rapidreport.systembase.co.jp/](http://rapidreport.systembase.co.jp/)
