@@ -78,9 +78,6 @@
     <Reference Include="systembase.report">
       <HintPath>..\dll\systembase.report.dll</HintPath>
     </Reference>
-    <Reference Include="systembase.report.renderer.gdi">
-      <HintPath>..\dll\systembase.report.renderer.gdi.dll</HintPath>
-    </Reference>
     <Reference Include="zxing, Version=1.0.4294.26991, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\dll\zxing.dll</HintPath>

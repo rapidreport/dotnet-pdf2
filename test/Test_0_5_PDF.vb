@@ -31,7 +31,8 @@ Public Class Test_0_5_PDF
         End Using
 
         sw.Stop()
-        MessageBox.Show(sw.ElapsedMilliseconds)
+
+        MessageBox.Show(name & ".pdfを出力しました：" & sw.ElapsedMilliseconds & "ミリ秒")
 
     End Sub
 

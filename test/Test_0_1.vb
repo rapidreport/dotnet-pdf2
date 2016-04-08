@@ -4,7 +4,6 @@ Imports jp.co.systembase.json
 Imports jp.co.systembase.report
 Imports jp.co.systembase.report.component
 Imports jp.co.systembase.report.data
-Imports jp.co.systembase.report.renderer.gdi
 Imports jp.co.systembase.report.renderer.pdf2
 
 Public Class Test_0_1
@@ -27,9 +26,7 @@ Public Class Test_0_1
             Dim renderer As New PdfRenderer(fs)
             pages.Render(renderer)
         End Using
-
-        Dim preview As New FmPrintPreview(New Printer(pages))
-        preview.ShowDialog()
+        MessageBox.Show(name & ".pdfを出力しました。")
     End Sub
 
 End Class
