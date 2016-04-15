@@ -126,6 +126,7 @@
     <Compile Include="Test_0_5_Data.vb" />
     <Compile Include="Test_0_5_PDF.vb" />
     <Compile Include="Test_0_1_Font.vb" />
+    <Compile Include="Test_4_23_Rect.vb" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="FmTest.resx">
@@ -164,6 +165,9 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
     <None Include="rrpt\test_0_5.rrpt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="rrpt\test_4_23_rect.rrpt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
   </ItemGroup>
